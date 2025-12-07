@@ -25,7 +25,7 @@ while True:
 
     if choice == "5":
         print("Exiting calculator")
-        break
+        continue 
 
     if choice in ["1", "2", "3", "4"]:
         x = float(input("Enter first number: "))
